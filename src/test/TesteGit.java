@@ -7,6 +7,14 @@ public class TesteGit {
         System.out.println("Teste para git");
         System.out.println("Usuario");
         System.out.println("Testando inserção linha");
+
+        int numero = 10;
+
+        if (numero < 0){
+            System.out.println("è menor");
+        } else {
+            System.out.println("è maior");
+        }
       
     }
 }
