@@ -1,20 +1,16 @@
 package test;
 
+import dominio.Aluno;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class TesteGit {
     public static void main(String[] args){
-        System.out.println("Teste para git");
-        System.out.println("Usuario");
-        System.out.println("Testando inserção linha");
+        Aluno aluno = new Aluno("39340986814", 18, "Pedro Augusto") ;
 
-        int numero = 10;
+        System.out.println(aluno);
 
-        if (numero < 0){
-            System.out.println("è menor");
-        } else {
-            System.out.println("è maior");
-        }
+
       
     }
 }
